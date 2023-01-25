@@ -276,3 +276,76 @@ hr {
 .hardware-heading {
     padding-top: 99px;
 }
+
+
+/***************************** PARTNERS SECTION ***********************/
+
+.partners {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+
+/***************************** HOW WE BUILD ************************/
+.how-build {
+    margin-top: -20px;
+}
+
+.intr-img {
+    width: 150px;
+    position: relative;
+    left: 340px;
+    top: -90px;
+}
+
+
+/******************************* NUMBERS SECTION ****************************/
+
+.numbers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.numbers-container {
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(251.27deg, #C0B7E8 12.87%, #8176AF 89.33%);
+    border-radius: 50%;
+    border: 20px solid #211E2E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.numbers-heading {
+    color: #343045;
+    font-size: 64px;
+
+}
+
+
+/*********************** LINKS SECTION *************************/
+
+.links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links-container {
+    display: flex;
+}
+
+.links-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.links-img {
+    position: relative;
+    top: -15px;
+    margin-right: 9px;
+}
