@@ -3,10 +3,21 @@ body {
     color: white;
     font-family: 'League Spartan', sans-serif;
     font-family: 'Montserrat', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
 }
 
-.header {}
+.allheading {
+    font-size: 36px;
+}
+
+.allpara {
+    font-size: 36px;
+    font-weight: 200;
+}
+
+p {
+    font-weight: 300;
+}
 
 .container {
     padding: 30px;
@@ -16,6 +27,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.navbar-logo {
+    margin-right: 15px;
 }
 
 .logo-container {
@@ -48,6 +63,7 @@ body {
     background-color: #302C42;
     padding: 15px 30px;
     cursor: pointer;
+    margin-right: 36px;
 }
 
 .join-button {
@@ -114,4 +130,149 @@ body {
     box-shadow: 0px 4px 4px rgba(192, 183, 232, 0.01);
     border-radius: 90px;
     margin-top: 60px;
+}
+
+
+/********************************** INTRODUCTION SECTION **************************************/
+
+.introduction {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-top: 90px;
+}
+
+.introduction-heading {
+    font-size: 36px;
+}
+
+.introduction-para {
+    font-size: 36px;
+    font-weight: 200;
+    margin-top: 10px;
+}
+
+.introduction-para-2 {
+    margin-top: 25px;
+    line-height: 30px;
+}
+
+.introduction-img {
+    width: 150px;
+    position: relative;
+    left: 280px;
+    top: -90px;
+}
+
+
+/********************************** ABOUT SECTION ****************************/
+
+.about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-img {
+    border-radius: 240px 100px;
+}
+
+.about-para {
+    line-height: 30px;
+}
+
+.about-btn {
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    border: none;
+    border-radius: 40px;
+    color: #343045;
+    padding: 15px 30px;
+}
+
+
+/**************************** BUILD SECTION ***************************/
+
+.build-para {
+    line-height: 30px;
+}
+
+
+/***************************** CARD SECTION **************************/
+
+.card-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-section-container {
+    width: 310px;
+    height: 551px;
+    background: radial-gradient(50% 50% at 50% 50%, #433D60 0%, #211E2E 100%);
+    border-radius: 40px;
+    text-align: center;
+}
+
+.card-img {
+    width: 185px;
+    border: 20px solid #0E0E0E52;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.card-heading {
+    font-size: 24px;
+}
+
+.card-para {
+    font-size: 12px;
+    text-align: left;
+    margin-top: 30px;
+    padding-left: 40px;
+    line-height: 24px;
+}
+
+.card-btn {
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    border: none;
+    border-radius: 40px;
+    color: #343045;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+hr {
+    width: 60%;
+}
+
+
+/******************************* HARDWARE SECTION *************************/
+
+.hardware {
+    text-align: center;
+    vertical-align: middle;
+    background: linear-gradient(0deg, rgba(48, 44, 66, 0.79), rgba(48, 44, 66, 0.79)), url(img/hardware.svg);
+    /* background: #211E2E; */
+    box-shadow: 0px 4px 4px rgba(192, 183, 232, 0.01);
+    border-radius: 160px;
+    height: 305px;
+    margin-top: 114px;
+}
+
+.hardware-link-container {
+    margin: 0 auto;
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(267.61deg, #C0B7E8 -0.6%, #8176AF 98.31%);
+    border-radius: 50%;
+    border: 10px solid #211E2E;
+}
+
+.hardware-img {
+    margin-top: 30px;
+
+}
+
+.hardware-heading {
+    padding-top: 99px;
 }
